@@ -556,9 +556,7 @@ $tab = $_GET['tab'] ?? 'posts';
                                                             <input type="hidden" name="delete_post" value="1">
                                                             <input type="hidden" name="post_id"
                                                                    value="<?= (int) $post['id'] ?>">
-                                                            <button type="submit" class="dropdown-item text-danger">
-                                                                <i class="ri-delete-bin-fill me-2"></i>Supprimer
-                                                            </button>
+                                                            
                                                         </form>
                                                     </li>
                                                 </ul>
