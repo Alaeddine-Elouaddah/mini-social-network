@@ -1,0 +1,171 @@
+# 📘 Mini Réseau Social
+
+Un réseau social minimaliste développé en PHP avec Bootstrap 5.
+
+---
+
+# 🚀 Manuel d'installation et d'utilisation
+
+## 📥 Installation
+
+### 1️⃣ Cloner le projet
+
+```bash
+git clone https://github.com/Alaeddine-Elouaddah/mini-social-network.git
+```
+
+---
+
+### 2️⃣ Renommer le dossier du projet
+
+⚠️ Important : le dossier doit être nommé exactement :
+
+```text
+Mini_resaux
+```
+
+---
+
+### 3️⃣ Déplacer le projet dans le serveur local
+
+Placez le dossier `Mini_resaux` dans le dossier de votre serveur local :
+
+- **XAMPP** → `htdocs`
+- **WAMP** → `www`
+
+Exemple avec XAMPP :
+
+```text
+C:\xampp\htdocs\Mini_resaux
+```
+
+---
+
+### 4️⃣ Démarrer les services
+
+Ouvrez **XAMPP** ou **WAMP** puis démarrez :
+
+- Apache
+- MySQL
+
+---
+
+# 📦 Installation de Composer
+
+Le projet utilise **Composer** pour le service d’envoi d’emails.
+
+## 1️⃣ Télécharger Composer
+
+Téléchargez Composer depuis le site officiel :
+
+```text
+https://getcomposer.org/
+```
+
+---
+
+## 2️⃣ Vérifier l’installation
+
+Dans le terminal, tapez :
+
+```bash
+composer --version
+```
+
+---
+
+## 3️⃣ Installer les dépendances
+
+Ouvrez le terminal dans le dossier du projet puis exécutez :
+
+```bash
+composer install
+```
+
+Cette commande installera automatiquement toutes les bibliothèques nécessaires au service email.
+
+---
+
+# 🗄️ Création de la base de données
+
+## 1️⃣ Ouvrir phpMyAdmin
+
+Dans votre navigateur :
+
+```text
+http://localhost/phpmyadmin
+```
+
+---
+
+## 2️⃣ Créer une nouvelle base de données
+
+Créez une base de données nommée :
+
+```text
+mini_resaux
+```
+
+---
+
+## 3️⃣ Importer la base de données
+
+⚠️ Important : le fichier SQL se trouve déjà dans le dossier du projet.
+
+1. Cliquez sur la base de données `mini_resaux`
+2. Ouvrez l’onglet **Importer**
+3. Sélectionnez le fichier `.sql` présent dans le projet
+4. Cliquez sur **Exécuter**
+
+---
+
+# ▶️ Lancer le projet
+
+Dans votre navigateur :
+
+```text
+http://localhost/Mini_resaux
+```
+
+---
+
+# 🔐 Compte de connexion
+
+Utilisez les informations suivantes pour vous connecter :
+
+### Email
+
+```text
+ensiasd@gmail.com
+```
+
+### Password
+
+```text
+ENSIASD2026
+```
+
+---
+
+# 🛠️ Technologies utilisées
+
+- PHP
+- MySQL
+- Bootstrap 5
+- Composer
+- HTML / CSS
+- JavaScript
+
+---
+
+# 📌 Fonctionnalités
+
+- Authentification utilisateur
+- Publication de posts
+- Interface responsive
+- Gestion des utilisateurs
+- Système de connexion sécurisé
+- Service d’envoi d’emails
+
+---
+
